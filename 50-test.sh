@@ -8,5 +8,6 @@ source ./functions.sh
 source ./set-env.sh
 
 
-curl http://127.0.0.1:8080
+istioctl analyze
 
+curl http://127.0.0.1:8080
