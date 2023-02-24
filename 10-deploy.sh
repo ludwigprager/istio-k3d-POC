@@ -34,3 +34,4 @@ echo waiting for deployment to get ready
 kubectl wait --for=condition=ready --timeout=90s -ndefault pod -l app=echoserver
 
 50-test.sh
+60-kiali.sh
