@@ -1,0 +1,2 @@
+git remote add github https://github.com/ludwigprager/istio-k3d-POC.git
+git push -u github 
