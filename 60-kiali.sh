@@ -20,4 +20,4 @@ kubectl wait --for=condition=ready --timeout=90s -nistio-system pod -l app=prome
 kubectl wait --for=condition=ready --timeout=90s -nistio-system pod -l app=jaeger
 kubectl wait --for=condition=ready --timeout=90s -nistio-system pod -l app=kiali
 
-istioctl dashboard kiali
+istioctl dashboard kiali &

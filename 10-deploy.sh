@@ -33,5 +33,6 @@ kubectl apply -f manifest/ingress.yaml
 echo waiting for deployment to get ready
 kubectl wait --for=condition=ready --timeout=90s -ndefault pod -l app=echoserver
 
-50-test.sh
-60-kiali.sh
+./50-test.sh
+./60-kiali.sh
+./70-bookinfo.sh
